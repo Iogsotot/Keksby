@@ -1,24 +1,180 @@
+body {
+  margin: 0;
+  padding: 0%;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  color: rgb(64, 64, 64);
+  line-height: 24px;
+  text-align: left;
+  /* position: absolute;
+    left: 260px;
+    top: 1067.269px;
+    width: 686px; */
+  height: 63px;
+  /* z-index: 147; */
+  color: #404040;
+  background-color: white;
+}
+
 .page-header, .page-footer {
   padding: 10px;
   background-color: #eeeeee;
 }
 
-.page-footer {
-  margin-top: 20px;
+.page-header {
+  color: #c3c3c3;
+  background-color: #363636;
+}
+
+.main-nav {
+  list-style: none;
+}
+
+.main-nav li {
+  text-transform: uppercase;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-nav a:active {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: underline;
+}
+
+.btn {
+  border: 1px solid white;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.333;
+  text-align: center;
+  /* position: absolute; */
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #8d745a;
+  background-color: #ffffff;
+}
+
+.btn:active {
+  color: rgba(141, 116, 90, 0.3);
+  background-color: #ffffff;
+}
+
+.promo {
+  font-size: 45px;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  line-height: 55px;
+  text-align: center;
+  /* height: 94px; */
+}
+
+.promo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.features ul {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+  border-left: 1px solid #d9d9d9;
+}
+
+.feature-item:first-child {
+  border-left: none;
+}
+
+.feature-title {
+  font-family: "Georgia", serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: #a38b70;
+  font-weight: bold;
+}
+
+.cat-reference {
+  background-color: #f2f2f2;
+}
+
+.section-title {
+  font-family: "Georgia", serif;
+  font-size: 45px;
+  line-height: 55px;
+  color: #a38b70;
+  font-weight: bold;
+}
+
+.reference-title {
+  font-size: 24px;
+}
+
+.reference-source {
+  color: #666666;
+  font-style: italic;
+}
+
+.reference-source a {
+  color: #a38b70;
+}
+
+.reference-source a:hover {
+  color: #8d745a;
+}
+
+.reference-source a:active {
+  color: rgba(141, 116, 90, 0.3);
+}
+
+.cat-reference dd img {
+  border-radius: 5px;
+}
+
+.review-author {
+  font-style: italic;
+}
+
+.review-item {
+  border-left: 3px solid #a38b70;
+  font-weight: bold;
+}
+
+.popular-and-price {
+  background-color: #f2f2f2;
+}
+
+.catalog-item h3 {
+  font-size: 16px;
+  color: #000000;
 }
 
 .price-list {
   width: 100%;
+  line-height: 30px;
   border-collapse: collapse;
 }
 
 .price-list th {
+  font-size: 14px;
+  text-transform: uppercase;
   text-align: left;
   font-weight: normal;
 }
 
 .price-list td {
-  border: 1px solid #333333;
+  border: 1px solid #d8d8d8;
 }
 
 .price-list th, .price-list td {
@@ -27,8 +183,96 @@
 
 .price-list *:first-of-type {
   text-align: center;
+  color: #000000;
 }
 
 .price-list tr td:nth-of-type(2) {
   font-weight: bold;
+}
+
+.feedback-form-group label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.feedback-form input[type="text"], .feedback-form select, .feedback-form textarea {
+  font: inherit;
+  color: inherit;
+  border: 2px solid #d5d5d5;
+}
+
+.feedback-form input[type="text"]:hover, .feedback-form select:hover, .feedback-form textarea:hover {
+  border-color: #bebebe;
+}
+
+.feedback-form input[type="text"]:focus, .feedback-form select:focus, .feedback-form textarea:focus {
+  border-color: #8d745a;
+}
+
+.checkbox-area {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.page-footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #363636;
+  color: #c3c3c3;
+}
+
+.footer-middle, .footer-bottom {
+  border-top: 1px solid #5e5e5e;
+}
+
+.footer-menu h3 {
+  font-family: "Georgia", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #a38b70;
+}
+
+.footer-menu ul {
+  list-style: none;
+}
+
+.footer-menu a {
+  color: #c3c3c3;
+  text-decoration: none;
+}
+
+.footer-menu a:hover {
+  color: #ffffff;
+}
+
+.footer-menu a:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-social b {
+  font-size: 24px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
+  font-weight: bold;
+}
+
+.social-btn {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-copyright a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-copyright a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright a:active {
+  color: rgba(255, 255, 255, 0.3);
 }

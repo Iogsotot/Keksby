@@ -3,7 +3,7 @@
 
 ## <a name="en">Keksby </a>   
 My oldest training project for HTML-Academy.       
-Clik <a href='https://iogsotot.github.io/lKeksby/'>here</a> to watch live-demo version of site.     
+Clik <a href='https://iogsotot.github.io/Keksby/'>here</a> to watch live-demo version of site.     
 * float
 * pixel perfect 
 
